@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+bottom: 15px;
+}.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-
+
+#progressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #28a745;
+}
+
+#currentWords {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+.dark-mode {
+    .dark-mode textarea,
+.dark-mode input,
+.dark-mode select {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode button {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #666;
+}
+
+.dark-mode #currentWords {
+    color: #4da6ff;
+}
+
+.dark-mode .progress-container {
+    background-color: #333;
+}
+
+.dark-mode .container {
+    background-color: #1f1f1f;
+    color: white;
+}
